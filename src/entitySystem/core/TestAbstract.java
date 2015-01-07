@@ -8,7 +8,6 @@ import java.util.Scanner;
 import javax.swing.ListCellRenderer;
 
 import com.esotericsoftware.minlog.Log;
-import entitySystem.util.GUILogger;
 
 public abstract class TestAbstract<E> {
 

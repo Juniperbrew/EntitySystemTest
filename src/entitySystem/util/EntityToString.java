@@ -8,6 +8,7 @@ import entitySystem.components.Position;
 
 public class EntityToString {
 
+    //Test
     public static String convert(Entity e){
         StringBuilder entityString = new StringBuilder();
         Bag<Component> components = new Bag<Component>();
@@ -22,7 +23,7 @@ public class EntityToString {
                 entityString.append("X: " + pos.x + " Y: " + pos.y + " ");
             } else if (component instanceof Health) {
                 Health health = (Health) component;
-                entityString.append("entitySystem.components.Health: " + health.health + " ");
+                entityString.append("Health: " + health.health + " ");
             } else {
                 entityString.append(component.getClass() + " ");
             }
@@ -31,40 +32,3 @@ public class EntityToString {
         return entityString.toString();
     }
 }
-/*
-
-    @Override
-    protected void processSystem() {
-        System.out.println("Void system:");
-        entityList.clear();
-
-        for(String mapName : world.getManager(GroupManager.class).getGroups()) {
-            ImmutableBag<Entity> entitiesInMap = world.getManager(GroupManager.class).getEntities(mapName);
-            Bag<Component> components = new Bag<Component>();
-
-            for (Entity monster : entitiesInMap) {
-                StringBuilder entityString = new StringBuilder();
-                components = monster.getComponents(components);
-
-                entityString.append(monster + " ");
-
-                for (Component component : components) {
-
-                    if (component instanceof entitySystem.components.Position) {
-                        entitySystem.components.Position pos = (entitySystem.components.Position) component;
-                        entityString.append("X: " + pos.x + " Y: " + pos.y + " ");
-                    } else if (component instanceof entitySystem.components.Health) {
-                        entitySystem.components.Health health = (entitySystem.components.Health) component;
-                        entityString.append("entitySystem.components.Health: " + health.health + " ");
-                    } else {
-                        entityString.append(component.getClass() + " ");
-                    }
-                }
-                components.clear();
-                entityList.add(entityString.toString());
-            }
-        }
-
-        System.out.println();
-    }
-    */
