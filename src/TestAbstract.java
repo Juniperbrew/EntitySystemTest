@@ -232,6 +232,9 @@ public abstract class TestAbstract<E> {
 				}
 			}
 			scn.close();
+		}else{
+			//echo
+			infoFrame.addLogLine(input);
 		}
 	}
 	
