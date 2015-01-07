@@ -8,7 +8,7 @@ import entitysystem.components.Position;
 
 public class EntityToString {
 
-    //Test11vcvc
+    //Final test
     public static String convert(Entity e){
         StringBuilder entityString = new StringBuilder();
         Bag<Component> components = new Bag<Component>();
