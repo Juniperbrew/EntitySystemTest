@@ -1,12 +1,12 @@
-package entitysyste.systems;
+package entitysystem.systems;
 
 import com.artemis.Aspect;
 import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.artemis.annotations.Wire;
 import com.artemis.systems.EntityProcessingSystem;
-import entitysyste.components.Position;
-import entitysyste.components.Velocity;
+import entitysystem.components.Position;
+import entitysystem.components.Velocity;
 
 @Wire
 public class MovementSystem extends EntityProcessingSystem {

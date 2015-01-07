@@ -1,4 +1,4 @@
-package entitysyste.core;
+package entitysystem.core;
 
 import com.esotericsoftware.minlog.Log;
 

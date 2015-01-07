@@ -1,4 +1,4 @@
-package entitysyste.core;
+package entitysystem.core;
 
 import java.util.*;
 
@@ -8,9 +8,9 @@ import com.artemis.World;
 import com.artemis.managers.GroupManager;
 import com.artemis.utils.Bag;
 import com.artemis.utils.ImmutableBag;
-import entitysyste.components.Health;
-import entitysyste.components.Position;
-import entitysyste.systems.AIRandomMovementSystem;
+import entitysystem.components.Health;
+import entitysystem.components.Position;
+import entitysystem.systems.AIRandomMovementSystem;
 import tiled.core.Map;
 import tiled.core.MapLayer;
 import tiled.core.MapObject;

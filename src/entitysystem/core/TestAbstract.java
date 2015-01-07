@@ -1,4 +1,4 @@
-package entitysyste.core;
+package entitysystem.core;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.InputMismatchException;
