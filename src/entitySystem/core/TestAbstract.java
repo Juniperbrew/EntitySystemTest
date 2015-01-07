@@ -1,3 +1,5 @@
+package entitySystem.core;
+
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
@@ -6,6 +8,7 @@ import java.util.Scanner;
 import javax.swing.ListCellRenderer;
 
 import com.esotericsoftware.minlog.Log;
+import entitySystem.util.GUILogger;
 
 public abstract class TestAbstract<E> {
 
@@ -41,9 +44,8 @@ public abstract class TestAbstract<E> {
 			}
 		});
 
-		initLogging();
 		initialize();
-		//initStatus();
+		initLogging();
 		startLogicLoop();
 
 	}

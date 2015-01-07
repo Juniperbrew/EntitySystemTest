@@ -1,4 +1,7 @@
+package entitySystem.core;
+
 import com.esotericsoftware.minlog.Log;
+import entitySystem.core.InfoFrame;
 
 public class GUILogger extends Log.Logger{
 	

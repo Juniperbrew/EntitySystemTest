@@ -1,3 +1,5 @@
+package entitySystem.components;
+
 import com.artemis.Component;
 
 public class Velocity extends Component{

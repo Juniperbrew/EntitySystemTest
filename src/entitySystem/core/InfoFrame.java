@@ -1,3 +1,5 @@
+package entitySystem.core;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
