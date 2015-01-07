@@ -1,4 +1,4 @@
-package entitySystem.components;
+package entitysystem.components;
 
 import com.artemis.Component;
 

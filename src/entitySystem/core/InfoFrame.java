@@ -1,4 +1,4 @@
-package entitySystem.core;
+package entitysystem.core;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

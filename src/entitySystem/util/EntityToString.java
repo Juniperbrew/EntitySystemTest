@@ -1,10 +1,10 @@
-package entitySystem.util;
+package entitysystem.util;
 
 import com.artemis.Component;
 import com.artemis.Entity;
 import com.artemis.utils.Bag;
-import entitySystem.components.Health;
-import entitySystem.components.Position;
+import entitysystem.components.Health;
+import entitysystem.components.Position;
 
 public class EntityToString {
 

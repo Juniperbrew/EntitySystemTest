@@ -1,7 +1,7 @@
-package entitySystem.core;
+package entitysystem.core;
 
 import com.artemis.*;
-import entitySystem.util.EntityToString;
+import entitysystem.util.EntityToString;
 
 import java.util.Vector;
 
